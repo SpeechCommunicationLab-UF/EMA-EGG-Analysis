@@ -11,6 +11,7 @@ Last Updated: 25 Jan 2023
   EMA: AG501 Carstens <p>
   EGG: Rose Laryngograph <p> 
   MATLAB: R2019b or most current edition <p>
+  Recommended OS: Windows
 
 <b> Step 1: MVIEW processing </b>
 
