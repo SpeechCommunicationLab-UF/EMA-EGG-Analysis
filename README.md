@@ -2,6 +2,8 @@
 Repository for data analysis scripts created for analyzing EGG and EMA data. 
 Hello! This file describes the data processing pipeline for EMA-EGG experiments, including the scripts necessary to perform the processing.
 
+Please cite Goel et. al. if using for analysis. 
+
 Written by: Jessica Goel
 Last Updated: 25 Jan 2023
 
