@@ -25,7 +25,7 @@ The script to perform the audio segmentation is called “EMA_EGG_Alignment”. 
 
 <b> Step 3: Combining Files </b>
 
-The script to perform the combination step is called . The script loops through given directories of .mat and .wav files, and combines them into a single .mat file so that all of the data (EMA, EGG) can be analyzed concurrently in MVIEW. 
+The script to perform the combination step is called "Struct_Addition". The script loops through given directories of .mat and .wav files, and combines them into a single .mat file so that all of the data (EMA, EGG) can be analyzed concurrently in MVIEW. 
 
 <b> Step 4: Adding F0 </b>
 
