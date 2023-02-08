@@ -1,11 +1,11 @@
-# Concurrent Visualization of EMA, EGG, and Acoustic Signals
-<b> Repository for data analysis scripts created for analyzing EGG and EMA data. </b> <p>
- Hello! This file describes the data processing pipeline for EMA-EGG experiments, including the scripts necessary to perform the processing.
+# Concurrent Visualization and Analysis of EMA, EGG, and Acoustic Signals During Speech Production
+
+Hello! This repository contains MATLAB code for synchronizing and visualizing EMA, EGG, and acoustic speech data files. 
 
 <i> Please cite Goel et. al. if using for analysis. </i>
 
 Written by: Jessica Goel
-Last Updated: 25 Jan 2023
+Last Updated: 08 Feb 2023
 
   <b> System Specifications: <p> </b>
   EMA: AG501 Carstens <p>
@@ -31,6 +31,6 @@ The script to perform the combination step is called . The script loops through 
 
 The script that adds F0 to the .mat file is called “F0_Addition”. It reads the wave signal from the EGG .wav line, calculates F0 using MVIEW’s F0 calculation function, and appends this new function to the .mat file as a separate line. 
 
-<b> Step 5: Generating .tsv Files </b>
+<b> Step 5: Generating .lab Files </b>
 
-After the final combined .mat file, with both EGG data and F0 has been created, it can then be viewed in MVIEW. Using MVIEW’s GUI, landmarks can be created and saved in a .tsv file for further processing and statistical analysis. 
+After the final combined .mat file, with both EGG data and F0 has been created, it can then be viewed in MVIEW. Using MVIEW’s GUI, landmarks can be created and saved in an .lab file for further processing and statistical analysis. 
